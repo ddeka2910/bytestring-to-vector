@@ -1,8 +1,9 @@
 name:                bytestring-to-vector
-version:             0.3.0.0
+version:             0.3.0.1
 license:             BSD3
 license-file:        LICENSE
 synopsis:            Convert between ByteString and Vector.Storable without copying
+homepage:            https://github.com/sheyll/bytestring-to-vector
 category:            Data Structures
 author:              Keegan McAllister <mcallister.keegan@gmail.com>
 maintainer:          Sven Heyll <sven.heyll@gmail.com>
@@ -19,9 +20,8 @@ description:
   .
   This library is a fork of the @spool@ package written by Keegan McAllister.
 
-
 extra-source-files:
-  README.md, stack.yaml, LICENSE
+  README.md, stack.yaml, LICENSE, .travis.yml
 
 library
   exposed-modules:  Data.Vector.Storable.ByteString
