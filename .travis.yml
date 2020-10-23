@@ -10,7 +10,9 @@
 
 # Choose a build environment
 dist: xenial
-
+arch:
+  - amd64
+  - ppc64le
 # Do not choose a language; we provide our own build tools.
 language: generic
 
